@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="" />
+    <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zbo14pvxMlENfBQIOoTt52FP2V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,14 +31,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585116935960</updated>
-      <workItem from="1585116937563" duration="2516000" />
+      <workItem from="1585116937563" duration="4629000" />
+      <workItem from="1585122106366" duration="130000" />
     </task>
     <servers />
   </component>
@@ -57,6 +84,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="358" key="#Project_Structure/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118798899" />
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585121838481">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585121838481" />
+    <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585122201508">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122201508" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585117527253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -65,14 +100,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1585117501279">
+    <state x="760" y="274" key="SettingsEditor" timestamp="1585122235496">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585117501279" />
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122235496" />
     <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585119531469">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585119531469" />
+    <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="424" key="new project wizard/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585121508392" />
     <state x="1110" y="490" key="svn.repositoryBrowser" timestamp="1585117463291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

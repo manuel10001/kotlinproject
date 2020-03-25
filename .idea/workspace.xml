@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="KotlinProject:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -72,12 +77,24 @@
       <option name="presentableId" value="Default" />
       <updated>1585116935960</updated>
       <workItem from="1585116937563" duration="4629000" />
-      <workItem from="1585122106366" duration="130000" />
+      <workItem from="1585122106366" duration="1428000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Hello World">
+      <created>1585122465718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585122465718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Hello World" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Hello World" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1585118798899">
@@ -92,6 +109,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122201508" />
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585122464908">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122464908" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585117527253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -100,14 +121,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1585123537374">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123537374" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1585123537374">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123537374" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1585123537374">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123537374" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1585123537374">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123537374" />
     <state x="760" y="274" key="SettingsEditor" timestamp="1585122235496">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122235496" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585119531469">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585122467247">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585119531469" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122467247" />
     <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -1,16 +1,9 @@
 fun main(args: Array<String>) {
-    var personObj = Person()
-    personObj.name = "Manuel"
-    personObj.age = 16
-    personObj.print()
-}
+    val person1 = Person("Max", 17)
+    val person2 = Person("Peter", 18)
 
-class Person {
-    var name:String = ""
-    var age:Int = 0
+    Person.compareAge(person1, person2)
+    person1.checkLegalAge()
+    person1.print()
 
-    fun print() {
-        println("Name: $name")
-        println("Age: $age")
-    }
 }

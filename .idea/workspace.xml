@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
@@ -23,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zbo14pvxMlENfBQIOoTt52FP2V" />
@@ -77,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585116935960</updated>
       <workItem from="1585116937563" duration="4629000" />
-      <workItem from="1585122106366" duration="2900000" />
+      <workItem from="1585122106366" duration="7499000" />
     </task>
     <task id="LOCAL-00001" summary="Add Hello World">
       <created>1585122465718</created>
@@ -93,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585123629403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Simplify print() method">
+      <created>1585125430035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585125430035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Hello World" />
     <MESSAGE value="Add First Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add First Class" />
+    <MESSAGE value="Simplify print() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify print() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1585118798899">
@@ -117,10 +131,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122201508" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585123628862">
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585125429541">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123628862" />
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125429541" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585117527253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -129,34 +143,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
-    <state width="2517" height="295" key="GridCell.Tab.0.bottom" timestamp="1585125383780">
+    <state width="2517" height="295" key="GridCell.Tab.0.bottom" timestamp="1585130592906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125383780" />
-    <state width="2517" height="295" key="GridCell.Tab.0.center" timestamp="1585125383780">
+    <state width="2517" height="295" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
+    <state width="2517" height="295" key="GridCell.Tab.0.center" timestamp="1585130592906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125383780" />
-    <state width="2517" height="295" key="GridCell.Tab.0.left" timestamp="1585125383780">
+    <state width="2517" height="295" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
+    <state width="2517" height="295" key="GridCell.Tab.0.left" timestamp="1585130592906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125383780" />
-    <state width="2517" height="295" key="GridCell.Tab.0.right" timestamp="1585125383780">
+    <state width="2517" height="295" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
+    <state width="2517" height="295" key="GridCell.Tab.0.right" timestamp="1585130592906">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125383780" />
+    <state width="2517" height="295" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
     <state x="760" y="274" key="SettingsEditor" timestamp="1585122235496">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122235496" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585123631130">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585125431506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585123631130" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125431506" />
     <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="662" y="424" key="new project wizard/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585121508392" />
+    <state x="1021" y="342" key="refactoring.ChangeSignatureDialog" timestamp="1585129665356">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1021" y="342" key="refactoring.ChangeSignatureDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585129665356" />
     <state x="1110" y="490" key="svn.repositoryBrowser" timestamp="1585117463291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

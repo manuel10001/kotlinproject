@@ -1,6 +1,6 @@
 package ch.person
 
-fun main(args: Array<String>) {
+fun main() {
     val person1 = Person("Max", 17)
     val person2 = Person("Peter", 18)
 

@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch/library/book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/library/library.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/library/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/person/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/person/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/library/book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/library/library.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/Library.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/library/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,8 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -65,7 +63,20 @@
       <recent name="C:\Users\Manuel\IdeaProjects\KotlinProject\src\ch\person" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ch.library.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProject" />
       <option name="VM_PARAMETERS" />
@@ -81,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -97,7 +109,7 @@
       <updated>1585116935960</updated>
       <workItem from="1585116937563" duration="4629000" />
       <workItem from="1585122106366" duration="7533000" />
-      <workItem from="1585130678309" duration="4046000" />
+      <workItem from="1585130678309" duration="10717000" />
     </task>
     <task id="LOCAL-00001" summary="Add Hello World">
       <created>1585122465718</created>
@@ -127,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585130611339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Library Package">
+      <created>1585139668843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585139668844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +157,8 @@
     <MESSAGE value="Add First Class" />
     <MESSAGE value="Simplify print() method" />
     <MESSAGE value="Add Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Methods" />
+    <MESSAGE value="Add Library Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Library Package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1585118798899">
@@ -153,14 +173,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122201508" />
+    <state x="1034" y="330" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585139963401">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1034" y="330" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585139963401" />
     <state x="1059" y="352" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1585138946787">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1059" y="352" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585138946787" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585130610824">
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585139668172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130610824" />
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585139668172" />
+    <state width="405" height="466" key="DebuggerActiveHint" timestamp="1585151920294">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="405" height="466" key="DebuggerActiveHint/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585151920294" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585117527253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -169,30 +197,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
-    <state width="2517" height="278" key="GridCell.Tab.0.bottom" timestamp="1585137974979">
+    <state width="2517" height="676" key="GridCell.Tab.0.bottom" timestamp="1585152113953">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="278" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
-    <state width="2517" height="278" key="GridCell.Tab.0.center" timestamp="1585137974979">
+    <state width="2517" height="676" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113953" />
+    <state width="2517" height="676" key="GridCell.Tab.0.center" timestamp="1585152113952">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="278" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
-    <state width="2517" height="278" key="GridCell.Tab.0.left" timestamp="1585137974979">
+    <state width="2517" height="676" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113952" />
+    <state width="2517" height="676" key="GridCell.Tab.0.left" timestamp="1585152113952">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="278" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
-    <state width="2517" height="278" key="GridCell.Tab.0.right" timestamp="1585137974979">
+    <state width="2517" height="676" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113952" />
+    <state width="2517" height="676" key="GridCell.Tab.0.right" timestamp="1585152113953">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="278" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1585122235496">
+    <state width="2517" height="676" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113953" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1585152039591">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122235496" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585130612461">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039591" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1585152039590">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130612461" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1585152039590">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1585152039590">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1585148613354">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585148613354" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585139670634">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585139670634" />
     <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -1,4 +1,8 @@
-class Person(var name: String, var age: Int) {
+package ch.person
+
+class Person(var newName: String, var newAge: Int) {
+    var name = newName
+    var age = newAge
 
     fun print() {
         println("Name: $name")

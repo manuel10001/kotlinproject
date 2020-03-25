@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/library/book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/library/library.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/library/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/person/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/person/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,6 +57,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ch.person" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Manuel\IdeaProjects\KotlinProject\src\ch\person" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProject" />
@@ -60,7 +73,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="ch.person.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585116935960</updated>
       <workItem from="1585116937563" duration="4629000" />
-      <workItem from="1585122106366" duration="7499000" />
+      <workItem from="1585122106366" duration="7533000" />
+      <workItem from="1585130678309" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="Add Hello World">
       <created>1585122465718</created>
@@ -106,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585125430035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Methods">
+      <created>1585130611339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585130611339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +137,8 @@
     <MESSAGE value="Add Hello World" />
     <MESSAGE value="Add First Class" />
     <MESSAGE value="Simplify print() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify print() method" />
+    <MESSAGE value="Add Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1585118798899">
@@ -131,10 +153,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="938" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122201508" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585125429541">
+    <state x="1059" y="352" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1585138946787">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125429541" />
+    <state x="1059" y="352" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585138946787" />
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585130610824">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130610824" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585117527253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -143,30 +169,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
-    <state width="2517" height="295" key="GridCell.Tab.0.bottom" timestamp="1585130592906">
+    <state width="2517" height="278" key="GridCell.Tab.0.bottom" timestamp="1585137974979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
-    <state width="2517" height="295" key="GridCell.Tab.0.center" timestamp="1585130592906">
+    <state width="2517" height="278" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
+    <state width="2517" height="278" key="GridCell.Tab.0.center" timestamp="1585137974979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
-    <state width="2517" height="295" key="GridCell.Tab.0.left" timestamp="1585130592906">
+    <state width="2517" height="278" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
+    <state width="2517" height="278" key="GridCell.Tab.0.left" timestamp="1585137974979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
-    <state width="2517" height="295" key="GridCell.Tab.0.right" timestamp="1585130592906">
+    <state width="2517" height="278" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
+    <state width="2517" height="278" key="GridCell.Tab.0.right" timestamp="1585137974979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="295" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130592906" />
+    <state width="2517" height="278" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585137974979" />
     <state x="760" y="274" key="SettingsEditor" timestamp="1585122235496">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585122235496" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585125431506">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585130612461">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585125431506" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585130612461" />
     <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

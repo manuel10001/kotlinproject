@@ -10,7 +10,7 @@ class Person {
     var age:Int = 0
 
     fun print() {
-        println("Name: " + this.name)
-        println("Age: " + this.age)
+        println("Name: $name")
+        println("Age: $age")
     }
 }

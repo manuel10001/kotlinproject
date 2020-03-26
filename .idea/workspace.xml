@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6af3a7b-5bc3-495c-a790-1fe31e20af23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch/interoperability/MyJavaFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/interoperability/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/library/book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/Book.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/library/library.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/Library.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/library/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/library/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,7 +63,20 @@
       <recent name="C:\Users\Manuel\IdeaProjects\KotlinProject\src\ch\person" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Application.MyJavaFile">
+    <configuration name="MyJavaFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.interoperability.MyJavaFile" />
+      <module name="KotlinProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.interoperability.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinProject" />
       <option name="VM_PARAMETERS" />
@@ -72,6 +85,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ch.library.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ch.interoperability.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyJavaFile" />
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -109,7 +137,8 @@
       <updated>1585116935960</updated>
       <workItem from="1585116937563" duration="4629000" />
       <workItem from="1585122106366" duration="7533000" />
-      <workItem from="1585130678309" duration="10717000" />
+      <workItem from="1585130678309" duration="10836000" />
+      <workItem from="1585203792779" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="Add Hello World">
       <created>1585122465718</created>
@@ -146,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585139668844</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Library Package">
+      <created>1585152166855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585152166855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,10 +217,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1059" y="352" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585138946787" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585139668172">
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1585152166025">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585139668172" />
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152166025" />
     <state width="405" height="466" key="DebuggerActiveHint" timestamp="1585151920294">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -197,46 +233,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1150" y="593" width="782" height="214" key="Github.ShareDialog/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585118139535" />
-    <state width="2517" height="676" key="GridCell.Tab.0.bottom" timestamp="1585152113953">
+    <state width="2517" height="268" key="GridCell.Tab.0.bottom" timestamp="1585207866975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="676" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113953" />
-    <state width="2517" height="676" key="GridCell.Tab.0.center" timestamp="1585152113952">
+    <state width="2517" height="268" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585207866975" />
+    <state width="2517" height="268" key="GridCell.Tab.0.center" timestamp="1585207866975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="676" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113952" />
-    <state width="2517" height="676" key="GridCell.Tab.0.left" timestamp="1585152113952">
+    <state width="2517" height="268" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585207866975" />
+    <state width="2517" height="268" key="GridCell.Tab.0.left" timestamp="1585207866975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="676" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113952" />
-    <state width="2517" height="676" key="GridCell.Tab.0.right" timestamp="1585152113953">
+    <state width="2517" height="268" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585207866975" />
+    <state width="2517" height="268" key="GridCell.Tab.0.right" timestamp="1585207866975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="676" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152113953" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1585152039591">
+    <state width="2517" height="268" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585207866975" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1585152224967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039591" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1585152039590">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152224967" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1585152224967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1585152039590">
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152224967" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1585152224967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1585152039590">
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152224967" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1585152224967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152039590" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585152224967" />
     <state x="760" y="274" key="SettingsEditor" timestamp="1585148613354">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585148613354" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585139670634">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585208564353">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585139670634" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.145.1920.1040@0.0.2560.1400" timestamp="1585208564353" />
     <state x="662" y="424" key="new project wizard" timestamp="1585121508392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
